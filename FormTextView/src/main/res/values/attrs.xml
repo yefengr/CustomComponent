@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <declare-styleable name="FormTextView">
+
+
+        <!--   文字样式     -->
+        <attr name="labelSize" format="dimension" />
+        <attr name="labelColor" format="color|reference" />
+        <attr name="labelMarginStart" format="dimension" />
+        <attr name="labelValue" format="string" />
+
+        <attr name="textSize" format="dimension" />
+        <attr name="textColor" format="color|reference" />
+        <attr name="textMarginEnd" format="dimension" />
+        <attr name="textValue" format="string" />
+
+        <attr name="dividingLineColor" format="color|reference" />
+        <attr name="dividingLineSize" format="dimension" />
+        <attr name="dividingLineShow" format="boolean" />
+
+        <!--    点击水波纹颜色    -->
+        <attr name="clickRipperColor" format="color|reference" />
+        <attr name="iconEndSize" format="dimension" />
+        <attr name="iconEndColor" format="color|reference" />
+        <attr name="iconEndShow" format="boolean" />
+
+
+    </declare-styleable>
+
+</resources>
+
+
+

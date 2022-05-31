@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <cn.com.hmsm.formtextview.FormTextView
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        app:dividingLineColor="@android:color/holo_blue_dark"
+        app:dividingLineShow="true"
+        app:dividingLineSize="@color/material_on_primary_emphasis_high_type"
+        app:labelColor="@color/material_on_background_emphasis_high_type"
+        app:labelValue="sfsd"
+        app:textColor="@color/design_default_color_error"
+        app:textValue="dfafd" />
+
+</LinearLayout>

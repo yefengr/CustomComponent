@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <cn.com.hmsm.formtextview.FormTextView
+        android:id="@+id/formTextView"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="200dp"
+        android:paddingStart="50dp"
+        android:paddingEnd="16dp"
+        app:clickRipperColor="@android:color/holo_red_light"
+        app:dividingLineColor="@color/purple_700"
+        app:dividingLineShow="true"
+        app:dividingLineSize="2dp"
+        app:iconEndColor="@android:color/holo_green_dark"
+        app:iconEndShow="true"
+        app:iconEndSize="10sp"
+        app:labelSize="5sp"
+        app:labelValue="姓名"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:textSize="5sp"
+        app:textValue="李晓明" />
+
+
+    <Button
+        android:id="@+id/button_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/formTextView" />
+</androidx.constraintlayout.widget.ConstraintLayout>
