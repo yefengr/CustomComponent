@@ -64,6 +64,7 @@
         app:icon="@drawable/to_right"
         app:iconGravity="end"
         app:iconSize="25sp"
+        app:shapeAppearance="@style/shape0Corner"
         app:iconTint="@android:color/black" />
 
 
