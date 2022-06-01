@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".FirstFragment">
 
-    <cn.com.hmsm.formtextview.FormTextView
+    <pers.yefengr.labeltextview.LabelTextView
         android:id="@+id/formTextView"
         android:layout_width="match_parent"
         android:layout_height="90dp"

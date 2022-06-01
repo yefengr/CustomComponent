@@ -5,7 +5,7 @@
     android:layout_height="match_parent">
 
 
-    <cn.com.hmsm.formtextview.FormTextView
+    <pers.yefengr.labeltextview.LabelTextView
         android:layout_width="match_parent"
         android:layout_height="128dp"
         android:paddingStart="16dp"

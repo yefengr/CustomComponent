@@ -1,4 +1,4 @@
-package cn.com.hmsm.formtextview
+package pers.yefengr.labeltextview
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -7,13 +7,13 @@ import android.content.res.TypedArray
 import android.graphics.Color
 import android.util.AttributeSet
 import android.util.Log
-import android.view.Gravity
 import android.view.View
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
 import androidx.core.view.setPadding
+
 import com.google.android.material.button.MaterialButton
 import kotlin.properties.Delegates
 
@@ -22,7 +22,7 @@ import kotlin.properties.Delegates
  * 表单下拉选
  */
 @SuppressLint("AppCompatCustomView")
-class FormTextView(context: Context, attrs: AttributeSet?) : ConstraintLayout(context, attrs) {
+class LabelTextView(context: Context, attrs: AttributeSet?) : ConstraintLayout(context, attrs) {
 
 
     private fun Context.dp2px(dpValue: Float): Int {
@@ -34,7 +34,7 @@ class FormTextView(context: Context, attrs: AttributeSet?) : ConstraintLayout(co
     }
 
 
-    private val TAG: String = "FormTextView"
+    private val TAG: String = "LabelTextView"
 
     // 自定义参数
     // 长度单位为px
@@ -85,26 +85,26 @@ class FormTextView(context: Context, attrs: AttributeSet?) : ConstraintLayout(co
         var a: TypedArray? = null
 
         try {
-            a = context.obtainStyledAttributes(attrs, R.styleable.FormTextView)
-            labelValue = a.getString(R.styleable.FormTextView_labelValue) ?: "标签"
-            labelSize = context.sp2px(a.getDimension(R.styleable.FormTextView_labelSize, 25f)).toFloat()
-            labelMarginStart = context.dp2px(a.getDimension(R.styleable.FormTextView_labelMarginStart, 0f)).toFloat()
-            labelColor = a.getColor(R.styleable.FormTextView_labelColor, Color.BLACK)
+            a = context.obtainStyledAttributes(attrs, R.styleable.LabelTextView)
+            labelValue = a.getString(R.styleable.LabelTextView_labelValue) ?: "标签"
+            labelSize = context.sp2px(a.getDimension(R.styleable.LabelTextView_labelSize, 25f)).toFloat()
+            labelMarginStart = context.dp2px(a.getDimension(R.styleable.LabelTextView_labelMarginStart, 0f)).toFloat()
+            labelColor = a.getColor(R.styleable.LabelTextView_labelColor, Color.BLACK)
 
-            textValue = a.getString(R.styleable.FormTextView_textValue) ?: "数据"
-            textSize = context.sp2px(a.getDimension(R.styleable.FormTextView_textSize, 25f)).toFloat()
-            textColor = a.getColor(R.styleable.FormTextView_textColor, Color.BLACK)
-            textMarginEnd = context.dp2px(a.getDimension(R.styleable.FormTextView_textMarginEnd, 0f)).toFloat()
+            textValue = a.getString(R.styleable.LabelTextView_textValue) ?: "数据"
+            textSize = context.sp2px(a.getDimension(R.styleable.LabelTextView_textSize, 25f)).toFloat()
+            textColor = a.getColor(R.styleable.LabelTextView_textColor, Color.BLACK)
+            textMarginEnd = context.dp2px(a.getDimension(R.styleable.LabelTextView_textMarginEnd, 0f)).toFloat()
 
 
-            dividingLineShow = a.getBoolean(R.styleable.FormTextView_dividingLineShow, true)
-            dividingLineSize = context.sp2px(a.getDimension(R.styleable.FormTextView_dividingLineSize, 2f)).toFloat()
-            dividingLineColor = a.getColor(R.styleable.FormTextView_dividingLineColor, Color.BLACK)
+            dividingLineShow = a.getBoolean(R.styleable.LabelTextView_dividingLineShow, true)
+            dividingLineSize = context.sp2px(a.getDimension(R.styleable.LabelTextView_dividingLineSize, 2f)).toFloat()
+            dividingLineColor = a.getColor(R.styleable.LabelTextView_dividingLineColor, Color.BLACK)
 
-            clickRipperColor = a.getColor(R.styleable.FormTextView_clickRipperColor, Color.WHITE)
-            iconEndColor = a.getColor(R.styleable.FormTextView_iconEndColor, Color.BLACK)
-            iconEndSize = context.sp2px(a.getDimension(R.styleable.FormTextView_iconEndSize, 25f)).toFloat()
-            iconEndShow = a.getBoolean(R.styleable.FormTextView_iconEndShow, true)
+            clickRipperColor = a.getColor(R.styleable.LabelTextView_clickRipperColor, Color.WHITE)
+            iconEndColor = a.getColor(R.styleable.LabelTextView_iconEndColor, Color.BLACK)
+            iconEndSize = context.sp2px(a.getDimension(R.styleable.LabelTextView_iconEndSize, 25f)).toFloat()
+            iconEndShow = a.getBoolean(R.styleable.LabelTextView_iconEndShow, true)
 
 
         } catch (e: Exception) {

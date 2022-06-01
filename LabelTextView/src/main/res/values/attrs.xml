@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
-    <declare-styleable name="FormTextView">
+    <declare-styleable name="LabelTextView">
 
 
         <!--   文字样式     -->
