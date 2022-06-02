@@ -10,10 +10,10 @@
 
     `implementation 'com.github.yefengr.CustomComponent:Components:{version}'
 
-### 自定义文本组件
+单独引用：
 
-`implementation 'com.github.yefengr.CustomComponent:LabelTextView:{version}'` 
+1. 自定义文本组件
+   
+   `implementation 'com.github.yefengr.CustomComponent:LabelTextView:{version}'` 
 
-一个带有label的`TextView`
-
-<img src="https://s1.ax1x.com/2022/06/02/XtGSy9.png" title="" alt="LabelTextView" data-align="center">
+![](D:\Projects\MyProject\Android\CustomComponent\assets\f14c7b5ad6fe8f06f2da35c0ced84748f415fcc2.png)
