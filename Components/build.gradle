@@ -4,7 +4,7 @@ plugins {
     id 'maven-publish'
 }
 group = 'com.github.yefengr'
-version = '1.0'
+version = '1.1'
 
 
 android {
@@ -53,7 +53,7 @@ afterEvaluate {
                 // You can then customize attributes of the publication as shown below.
                 groupId = 'com.github.yefengr'
                 artifactId = 'Components'
-                version = '1.0'
+                version = '1.1'
             }
 
         }
