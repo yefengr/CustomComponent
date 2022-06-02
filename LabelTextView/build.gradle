@@ -3,6 +3,8 @@ plugins {
     id 'org.jetbrains.kotlin.android'
     id 'maven-publish'
 }
+version = '0.1'
+
 
 android {
     compileSdk 32
