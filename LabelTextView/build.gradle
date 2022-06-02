@@ -3,6 +3,7 @@ plugins {
     id 'org.jetbrains.kotlin.android'
     id 'maven-publish'
 }
+group = 'com.github.yefengr'
 version = '0.1'
 
 
