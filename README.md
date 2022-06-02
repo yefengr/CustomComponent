@@ -16,4 +16,4 @@
 
 一个带有label的`TextView`
 
-![](.\assets\c50ac8a3f7414972c39490366b5a95facd85923c.png)
+<img src="https://s1.ax1x.com/2022/06/02/XtGSy9.png" title="" alt="LabelTextView" data-align="center">
