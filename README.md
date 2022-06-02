@@ -16,4 +16,4 @@
    
    `implementation 'com.github.yefengr.CustomComponent:LabelTextView:{version}'` 
 
-![](D:\Projects\MyProject\Android\CustomComponent\assets\f14c7b5ad6fe8f06f2da35c0ced84748f415fcc2.png)
+![](https://raw.githubusercontent.com/yefengr/CustomComponent/master/assets/f14c7b5ad6fe8f06f2da35c0ced84748f415fcc2.png)
