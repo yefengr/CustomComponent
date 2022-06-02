@@ -36,14 +36,13 @@ android {
 
 dependencies {
 
-    implementation project(path: ':Components')
+//    implementation project(path: ':Components')
 
 //    implementation 'com.github.yefengr:CustomComponent:0a039d136b'
 //    implementation 'com.github.yefengr:Components:0.1'
 //    implementation 'com.github.yefengr:CustomComponent:0a039d13'
 //    implementation 'com.github.yefengr.CustomComponent:0a039d13:Components-release.aar'
-
-
+    implementation 'com.github.yefengr.CustomComponent:Components:-SNAPSHOT'
     implementation "androidx.core:core-ktx:${versions.core_ktx}"
     implementation "androidx.appcompat:appcompat:${versions.appcompat}"
     implementation "com.google.android.material:material:${versions.material}"
